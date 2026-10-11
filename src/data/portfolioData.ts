@@ -47,7 +47,7 @@ export const DEVELOPER_PROFILE = {
   specializations: ['React.js', 'Next.js', 'WordPress'] as const,
   stats: [
     { label: 'Years Experience', value: '02+' },
-    { label: 'Featured Projects', value: '09' },
+    { label: 'Featured Projects', value: '15' },
     { label: 'Core Specializations', value: '03' },
   ],
   contact: {
@@ -71,7 +71,7 @@ export const DEVELOPER_PROFILE = {
 export const PROJECTS: Project[] = [
   {
     id: 'zayam-rock',
-    number: '01 / 09',
+    number: '01 / 15',
     title: 'Zayam Rock',
     category: 'Architectural Surfaces & Engineered Stone',
     url: 'https://dev.zayamrock.com/',
@@ -83,7 +83,7 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 'cannata',
-    number: '02 / 09',
+    number: '02 / 15',
     title: 'Cannata Logistics',
     category: 'Freight Forwarding & Cargo Services · UAE',
     url: 'https://cannata.ae/',
@@ -94,7 +94,7 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 'movinz',
-    number: '03 / 09',
+    number: '03 / 15',
     title: 'Movinz',
     category: 'Relocation & International Moving Platform',
     url: 'https://movinz.com/',
@@ -105,7 +105,7 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 'servix-agency',
-    number: '04 / 09',
+    number: '04 / 15',
     title: 'Servix Agency',
     category: 'Full-Service Digital Agency · KSA',
     url: 'https://servix.agency/',
@@ -116,7 +116,7 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 'mg-store',
-    number: '05 / 09',
+    number: '05 / 15',
     title: 'MG Store',
     category: 'Kitchenware & Modern Appliances E-Commerce',
     url: 'https://mg-store.shop/',
@@ -127,7 +127,7 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 'fire-fit-ems',
-    number: '06 / 09',
+    number: '06 / 15',
     title: 'Fire Fit EMS',
     category: 'Fitness Studio & EMS Training Technology',
     url: 'https://firefitems.com/',
@@ -138,7 +138,7 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 'el-hedaya',
-    number: '07 / 09',
+    number: '07 / 15',
     title: 'El Hedaya Dairy',
     category: 'Industrial Dairy Manufacturing & Distribution',
     url: 'https://elhedaya.net/',
@@ -149,7 +149,7 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 'belmondo-beauty',
-    number: '08 / 09',
+    number: '08 / 15',
     title: 'Belmondo Beauty USA',
     category: 'Luxury Bio-Cellulose Skincare & Cosmetics',
     url: 'https://belmondobeautyusa.com/',
@@ -160,7 +160,7 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 'servix-growth',
-    number: '09 / 09',
+    number: '09 / 15',
     title: 'Servix Growth Platform',
     category: 'Next.js Digital Business & Conversion Engine',
     url: 'https://blanchedalmond-eel-746160.hostingersite.com/ar',
@@ -168,6 +168,62 @@ export const PROJECTS: Project[] = [
     description:
       'Next.js web application built for Servix Agency to transform inbound visitor traffic into sustainable business momentum through structured digital pillars.',
     technologies: ['Next.js', 'React.js', 'Tailwind CSS', 'REST API Integration'],
+  },
+  {
+    id: 'kemokono',
+    number: '10 / 15',
+    title: 'Karim Mohamed Cinematography',
+    category: 'Film Direction & Cinematographer Portfolio',
+    url: 'https://kemokono.com/',
+    screenshot: '/projects/kemokono.jpg',
+    description:
+      'High-impact editorial portfolio for professional cinematographer Karim Mohamed, showcasing high-profile commercial films, behind-the-scenes projects, and video archives.',
+    technologies: ['WordPress', 'Elementor', 'Video UI', 'Responsive Design'],
+  },
+  {
+    id: 'orthopaedia-crme',
+    number: '11 / 15',
+    title: 'Orthopaedia CME',
+    category: 'Continuing Medical Education & Clinical Platform',
+    url: 'https://orthopaediacrme.vercel.app/',
+    screenshot: '/projects/orthopaedia-crme.jpg',
+    description:
+      'Specialized continuing medical education portal for orthopedic surgeons and medical professionals, delivering conference agendas, registrations, and learning modules.',
+    technologies: ['React.js', 'Tailwind CSS', 'Component Systems', 'Interactive UI'],
+  },
+  {
+    id: 'servix-services',
+    number: '12 / 15',
+    title: 'Servix Services Platform',
+    category: 'Digital Business Transformation & SaaS Portal',
+    url: 'https://servixservices.vercel.app/',
+    screenshot: '/projects/servix-services.jpg',
+    description:
+      'Comprehensive Arabic digital transformation platform by Servix Agency, designed with structured business roadmaps, service catalogs, and corporate client onboarding.',
+    technologies: ['Next.js', 'React.js', 'Tailwind CSS', 'Modern Architecture'],
+  },
+  {
+    id: 'nexus-crm',
+    number: '13 / 15',
+    title: 'NexusCRM Enterprise',
+    category: 'Enterprise CRM & Customer Intelligence',
+    url: 'https://crm-system-mauve.vercel.app/#/',
+    screenshot: '/projects/nexus-crm.jpg',
+    description:
+      'Production-grade customer relationship management system featuring interactive pipeline views, dynamic contact filters, analytics tables, and client workflow automation.',
+    technologies: ['React.js', 'SPA Architecture', 'Dynamic Tables', 'REST APIs'],
+  },
+ 
+  {
+    id: 'sealtec',
+    number: '15 / 15',
+    title: 'SEALTEC Saudi Arabia',
+    category: 'Engineered Surfaces & Industrial Materials',
+    url: 'https://sealtec-projectt.vercel.app/',
+    screenshot: '/projects/sealtec.jpg',
+    description:
+      'Official corporate web portal for SEALTEC Saudi Arabia, uniting high-performance industrial coatings, surface engineering solutions, and architectural infrastructure.',
+    technologies: ['Next.js', 'Tailwind CSS', 'Industrial UX', 'Responsive Design'],
   },
 ];
 

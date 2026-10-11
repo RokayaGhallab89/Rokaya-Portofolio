@@ -24,7 +24,7 @@ export const ProjectGrid: React.FC = () => {
           <div className="flex items-center gap-3 mb-4">
             <span className="font-mono text-xs text-[#B8FF65]">03</span>
             <span className="text-xs font-mono text-[#969BA5] uppercase tracking-wider">
-              Selected Work · 09 Live Deployments
+              Selected Work · 15 Live Deployments
             </span>
           </div>
 
@@ -39,7 +39,7 @@ export const ProjectGrid: React.FC = () => {
         {/* Filter Segmented Controls */}
         <div className="flex items-center p-1 bg-[#111318] border border-[#292D34] rounded-lg self-start md:self-auto overflow-x-auto max-w-full">
           {[
-            { id: 'all', label: 'All (09)' },
+            { id: 'all', label: 'All (15)' },
             { id: 'next', label: 'Next.js' },
             { id: 'react', label: 'React.js' },
             { id: 'wordpress', label: 'WordPress / Woo' },
